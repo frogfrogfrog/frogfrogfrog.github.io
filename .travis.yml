@@ -17,6 +17,7 @@ before_install:
 
 install:
   - npm install # 安装依赖
+  - npm i -S hexo-generator-search hexo-generator-json-content hexo-renderer-less
 
 script: # 执行脚本，清除缓存，生成静态文件
   - hexo clean
